@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ranking</title>
+</head>
+
+<body>
+    <div id="container">
+        <h2>ranking score</h2>
+        <label class="input_num" for="input_num">Input (0-10): </label>
+        <input type="number" id="score" min="0" max="10" step="0.1">
+        <button onclick="calculateRating()">Tính xếp loại</button>
+
+        <p id="result"></p>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
